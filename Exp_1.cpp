@@ -1,4 +1,4 @@
-/*  💥Practical No: 01 💥
+/*  ??Practical No: 01 ??
 Consider telephone book database of N clients. 
 Make use of a hash table implementation to quickly look up client ‘s telephone number. 
 Make use of two collision handling techniques and compare them using number of 
@@ -12,20 +12,20 @@ using namespace std;
 struct data
 {
     char name[30];
-    long teleno;
+    long long teleno;
 };
 
 class HashTable
 {
     int n, sum, x, c, i, j;
     char na[30];
-    long no;
+    long long no;
     struct data d[10]; // Qualify 'data' with its namespace
 
 public:
     HashTable()
     {
-        for (i = 0; i < 10; i++)
+        for (i = 0; i < 12; i++)
         {
             d[i].teleno = 0;
         }
